@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SortSheets</Text>
+    <Description>Some description for SortSheets</Description>
+    <Assembly>SortSheets.dll</Assembly>
+    <FullClassName>SortSheets.Command</FullClassName>
+    <ClientId>2fff5082-ea51-4db7-84ee-c3d2d4646f4c</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SortSheets</Name>
+    <Assembly>SortSheets.dll</Assembly>
+    <FullClassName>SortSheets.App</FullClassName>
+    <ClientId>80b18bec-911c-459e-b4e3-5bf5781b3ad5</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
